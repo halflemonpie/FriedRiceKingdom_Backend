@@ -1,15 +1,16 @@
-const mongoose = require('../db/connections');
-const Schema = mongoose.Schema;
+const mongoose = require('../db/connection')
+const Schema = mongoose.Schema
 
 const projectSchema = new Schema({
-  name: String,
-  description: String,
-  category: String,
-  importance: String,
-  date: Date,
-  complete: Boolean,
-});
-
-const Project = mongoose.model('project', projectSchema);
-
-module.exports = Project;
+    name: String,
+    image: String,
+    Type: String,
+    Tasks:[
+        {
+        ref: "Task",
+        type: mongoose.Schema.Types.ObjectId 
+        }
+       ]
+  })
+  const Pokemon = mongoose.model('Project', projectSchema)
+  module.exports = Project
