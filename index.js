@@ -13,6 +13,6 @@ const routes = require('./routes/index');
 
 app.use(routes);
 
-app.listen(4000, () => {
-  console.log('app listening on port 4000');
+app.listen(8080, () => {
+  console.log('app listening on port 8080');
 });
