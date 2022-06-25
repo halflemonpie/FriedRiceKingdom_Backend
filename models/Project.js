@@ -3,14 +3,18 @@ const Schema = mongoose.Schema
 
 const projectSchema = new Schema({
     name: String,
-    image: String,
-    Type: String,
-    Tasks:[
+    description: String,
+    category: String,
+    importance: Number,
+    type: String,
+    date: Date,
+    complete: Boolean,
+    tasks:[
         {
         ref: "Task",
-        type: mongoose.Schema.Types.ObjectId 
+        type: mongoose.Schema.Types.ObjectId
         }
        ]
   })
-  const Pokemon = mongoose.model('Project', projectSchema)
+  const Project = mongoose.model('Project', projectSchema)
   module.exports = Project
