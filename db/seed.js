@@ -5,7 +5,7 @@ Project.deleteMany({}).then(() => {
     console.log('deleted all projects')
     Task.deleteMany({}).then(() => {
         console.log('deleted all tasks');
-// create a project
+
     Project.create(
       {
         name: "High School reunion",
@@ -30,4 +30,5 @@ Project.deleteMany({}).then(() => {
     });
   });
 }) 
+
 
