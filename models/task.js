@@ -1,13 +1,17 @@
 const mongoose = require('../db/connections');
 const Schema = mongoose.Schema;
-const project = require('./project');
 
 const taskSchema = new Schema({
   name: String,
   complete: Boolean,
-  project: [project],
+  Project: [
+    {
+      ref: 'Project',
+      type: mongoose.Schema.Types.ObjectId,
+    },
+  ],
 });
 
-const task = mongoose.model('task', taskSchema);
+const Task = mongoose.model('Task', taskSchema);
 
-module.exports = task;
+module.exports = Task;
