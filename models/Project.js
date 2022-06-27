@@ -9,6 +9,7 @@ const projectSchema = new Schema({
     type: String,
     date: Date,
     complete: Boolean,
+    image: String,
     tasks:[
         {
         ref: "Task",
