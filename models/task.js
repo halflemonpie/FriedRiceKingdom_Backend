@@ -3,9 +3,8 @@ const Schema = mongoose.Schema
 
 const taskSchema = new Schema({
     name: String,
-    image: String,
-    Type: String,
-    
+    complete: Boolean,
   })
-  const Pokemon = mongoose.model('Task', taskSchema)
+  const Task = mongoose.model('Task', taskSchema)
   module.exports = Task
+  
