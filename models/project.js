@@ -12,7 +12,7 @@ const projectSchema = new Schema({
   tasks: [
     {
       ref: 'Task',
-      type: mongoose.Schema.Types.ObjectId,
+      type: Object,
     },
   ],
 });
