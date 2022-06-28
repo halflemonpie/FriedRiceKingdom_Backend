@@ -8,8 +8,8 @@ module.exports = {
         res.json(projects);
       });
     },
-    show: (req, res) => {
-      Project.findById(req.params.id)
+    search: (req, res) => {
+      Project.find(req.params.category)
       .then((project) => {
           res.json(project)
       })
