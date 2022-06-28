@@ -1,4 +1,5 @@
-const Project = require('../models/Project')
+const Project = require('../models/Project');
+const Task = require('../models/Task');
 
 module.exports = {
     index: (req, res) => {
@@ -28,6 +29,16 @@ module.exports = {
           Project.findByIdAndDelete(req.params.id)
           .then((project) => {
               res.json(project)
+          })
+      },
+      createNewTodo: (req, res) => {
+        Project.findById(req.params.id)
+          .then((project) => {
+              Task.create(req.body).then((task) => {
+                project.tasks.push(task)
+                project.save()
+                res.json(project)
+              })
           })
       }
   }
