@@ -39,7 +39,12 @@ module.exports = {
                 project.save()
                 res.json(project)
               })
-          })
+          })},
+      showCat: (req, res) => {
+        Project.findOne({ category: req.params.category})
+        .then((project) => {
+            res.json(project)
+        })
       }
   }
   
