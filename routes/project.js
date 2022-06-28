@@ -9,6 +9,7 @@ router.post('/', projectController.create)
 router.put('/:id', projectController.edit)
 router.delete('/:id', projectController.delete)
 router.put('/newTodo/:id', projectController.createNewTodo)
+router.get('/project/:category', projectController.showCat)
 
 
 module.exports = router;
