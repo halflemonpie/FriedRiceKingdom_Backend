@@ -29,6 +29,12 @@ module.exports = {
           .then((project) => {
               res.json(project)
           })
+      },
+      show: (req, res) => {
+        Project.findOne(req.params.category)
+        .then((project) => {
+            res.json(project)
+        })
       }
   }
   
