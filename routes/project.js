@@ -8,7 +8,7 @@ router.get('/:id', projectController.show)
 router.post('/', projectController.create)
 router.put('/:id', projectController.edit)
 router.delete('/:id', projectController.delete)
-router.get('/:category', projectController.show)
+router.get('/project/:category', projectController.show)
 
 
 module.exports = router;

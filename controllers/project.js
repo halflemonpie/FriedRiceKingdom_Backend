@@ -31,7 +31,7 @@ module.exports = {
           })
       },
       show: (req, res) => {
-        Project.findOne(req.params.category)
+        Project.findOne({ category: req.params.category})
         .then((project) => {
             res.json(project)
         })
