@@ -7,7 +7,7 @@ module.exports = {
         res.json(tasks);
       });
     },
-    show: (req, res) => {
+    search: (req, res) => {
       Task.findById(req.params.id)
       .then((task) => {
           res.json(task)

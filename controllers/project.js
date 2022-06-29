@@ -8,7 +8,7 @@ module.exports = {
         res.json(projects);
       });
     },
-    show: (req, res) => {
+    search: (req, res) => {
       Project.findById(req.params.id)
       .then((project) => {
           res.json(project)
