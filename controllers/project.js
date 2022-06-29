@@ -9,7 +9,7 @@ module.exports = {
       });
     },
     search: (req, res) => {
-      Project.find(req.params.category)
+      Project.findById(req.params.id)
       .then((project) => {
           res.json(project)
       })
