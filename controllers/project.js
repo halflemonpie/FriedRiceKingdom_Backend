@@ -39,11 +39,17 @@ module.exports = {
                 project.save()
                 res.json(project)
               })
-          })},
+          })
+        },
       showCat: (req, res) => {
         Project.findOne({ category: req.params.category})
         .then((project) => {
             res.json(project)
+        })
+      },
+      showName: (req, res) => {
+        Project.find({name: { $regex: req.params.name, $options: 'i' }}).then((projects) => {
+          res.json(projects)
         })
       }
   }
