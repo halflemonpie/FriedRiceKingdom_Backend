@@ -1,70 +1,125 @@
 [{
-    "name": "yonghai is the best! :)",
-    "description": "99 year high school reunion! Welcome back Class of 2012!",
-    "category": "Nice Boat",
+    "name": "High School Reunion",
+    "description": "10 year high school reunion! Welcome back Class of 2012!",
+    "category": "Gathering",
     "importance": 3,
     "date": "0012-12-31T00:00:00.000Z",
     "complete": true,
-    "image": "url here",
+    "image": "https://www.spraguehs.com/information/reunion/reunion.jpg",
     "tasks": [
         {
-            "name": "first to do",
+            "name": "Accept the Invitation",
             "complete": false
         },
         {
-            "name": "second to do",
+            "name": "Bring Champagne",
             "complete": true
         },
         {
-            "name": "THIRD to do",
+            "name": "Dress Up",
             "complete": false
         }
     ]
 },
 {
-    "name": "yonghai is the worst :)",
-    "description": "second see data",
-    "category": "what is this",
-    "importance": 3,
+    "name": "Kevin's Karaoke Party",
+    "description": "Want to get drunk and sing? Come to my house",
+    "category": "Party",
+    "importance": 2,
     "date": "0012-12-31T00:00:00.000Z",
     "complete": false,
-    "image": "beautiful",
+    "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F184375039%2F474927372937%2F1%2Foriginal.20211111-155142?w=600&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C236%2C4724%2C2362&s=4e575120dfe7909c04845ca84c81491d",
     "tasks": [
         {
-            "name": "dsada to do",
+            "name": "Bring Whiskey",
             "complete": false
         },
         {
-            "name": "lkjl to do",
+            "name": "Bring Soju",
             "complete": true
         },
         {
-            "name": "nanana to do",
+            "name": "Bring Beers",
             "complete": false
         }
     ]
 },
 {
-    "name": "biubiubiu",
-    "description": "hola",
-    "category": "blue",
+    "name": "Team Fried Rice Kingdom is Hiring!",
+    "description": "Npm Start Fried Rice Kingdom (aka NSFRK) is hiring for all talented people right now. Please do \"npm install Fried Rice Kingdom\" for more details. ",
+    "category": "Recruitment",
     "importance": 5,
     "date": "0012-12-31T00:00:00.000Z",
     "complete": true,
-    "image": "url here wow nice",
+    "image": "https://media.istockphoto.com/photos/blackboard-with-the-text-we-want-you-picture-id537452821?k=20&m=537452821&s=612x612&w=0&h=FXsV45FabPFIk46euNFMxGxlHVETM9VMPk_CA9Avqf4=",
     "tasks": [
         {
-            "name": "first",
+            "name": "Pay $200 Deposit First",
             "complete": false
         },
         {
-            "name": "second",
+            "name": "Submit Your Resume",
             "complete": true
         },
         {
-            "name": "THIRD",
+            "name": "Submit Your Cover Letter",
+            "complete": false
+        }
+    ]
+},
+{
+    "name": "Intro to Yoga",
+    "description": "Interested in Yoga? Join us tomorrow",
+    "category": "Lesson",
+    "importance": 4,
+    "date": "0012-12-31T00:00:00.000Z",
+    "complete": false,
+    "image": "https://images.everydayhealth.com/images/healthy-living/fitness/all-about-yoga-mega-722x406.jpg",
+    "tasks": [
+        {
+            "name": "Bring Your Own Yoga Mat",
+            "complete": false
+        }
+ 
+    ]
+},
+{
+    "name": "Project 4",
+    "description": "My final Project for General Assembly",
+    "category": "Coding",
+    "importance": 5,
+    "date": "2022-07-14T00:00:00.000Z",
+    "complete": false,
+    "image": "https://i.insider.com/601441dd6dfbe10018e00c25?width=700",
+    "tasks": [
+        {
+            "name": "Make the frontend",
+            "complete": false
+        },
+        {
+            "name": "Make the backend",
+            "complete": true
+        },
+        {
+            "name": "Make it beautiful",
+            "complete": false
+        }
+    ]
+},
+{
+    "name": "Anime Convention",
+    "description": "Meet your favorite creators!",
+    "category": "Convention",
+    "importance": 5,
+    "date": "0012-12-31T00:00:00.000Z",
+    "complete": false,
+    "image": "https://www.japan-guide.com/g18/3045_02.jpg",
+    "tasks": [
+        {
+            "name": "Just Come",
             "complete": false
         }
     ]
 }
+
 ]
