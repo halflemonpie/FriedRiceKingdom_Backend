@@ -6,14 +6,14 @@ Welcome to Yonghai's Mini Lesson.
 
 Do it from the contend
 
-1. Set up the sate for the data, you will need tow state to share the same information, and you will know why
+1. Set up the state for the data, you will need two states to share the same information, and you will know why
 
    ```react
    const [data, setData] = useState([]);
    const [dataRaw, setDataRaw] = useState([]);
    ```
 
-2. set up a input field for search bar
+2. Set up a input field for search bar
 
    ```js
    import React from "react";
@@ -89,7 +89,7 @@ Do it from the contend
 
 Reference: the react class where we filter fruits https://git.generalassemb.ly/Spartans/lifting-state-practice
 
-1. I used regular expression/regex for this method, if you don't know what it is, just google it. It is just a way to search without eaxct math of the content.
+1. I used regular expression/regex for this method, if you don't know what it is, just google it. It is just a way to search without exact math of the content.
 
 2. Set up the controller first
 
@@ -114,9 +114,9 @@ Reference: the react class where we filter fruits https://git.generalassemb.ly/S
    http://localhost:8080/projects/name/h
    ```
 
-   it will show you all the projects that has "h" insid
+   it will show you all the projects that has "h" inside
 
-5. Now lets move to the fontend part. Again, setup the component and tag
+5. Now lets move to the frontend part. Again, setup the component and tag
 
    ```js
    <NameFilterBar handleNameFilter={handleNameFilter}/>
@@ -132,7 +132,7 @@ Reference: the react class where we filter fruits https://git.generalassemb.ly/S
    }
    ```
 
-6. Now let's look at out filter function for this method
+6. Now let's look at our filter function for this method
 
    ```js
    const handleNameFilter = (e) => {
@@ -150,7 +150,7 @@ Reference: the react class where we filter fruits https://git.generalassemb.ly/S
 
 7. Done. Simple. But the problem right now is that when you have nothing inside your input field or you have some special character like "( " ")", you backend is going to crash because of the bad request!!!
 
-   You need to aviod that by conditions. And this part also use regex to do that.
+   You need to avoid that by conditions. And this part also use regex to do that.
 
    ```js
    const handleNameFilter = (e) => {

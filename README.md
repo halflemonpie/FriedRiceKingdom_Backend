@@ -22,11 +22,11 @@ Express.js,
 Node.js,
 
 
-Deployed backend with Heoku and Frontend with Netlify.
+Deployed backend with Heroku and Frontend with Netlify.
 
 An App with full CRUD where you keep track of your projects and events.
 It also has a todo list within the event pages for organization. You can also
-filter events by category, name and date. And save event in the calendar functionality.
+filter events by category, name and date. And save events in the calendar functionality.
 
 
 <img width="625" alt="Screen Shot 2022-06-24 at 11 20 51 AM" src="https://user-images.githubusercontent.com/47561235/176781121-13096d6a-929d-430a-b9b0-07e317f2f39b.png">
@@ -57,7 +57,7 @@ Connect frontend and backend
 
 have page render the events.
 
-have a page to render the to-dos for the event
+Have a page to render the to-dos for the event
 
 User can use full CRUD on the application.
 
